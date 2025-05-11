@@ -18,4 +18,20 @@ let isloggedIn = false
 console.log(typeof "abhishek")
 console.log(typeof undefined) // output undefined
 console.log(typeof null)// output object
+ const id  = Symbol('123')
+ const AnotherId = Symbol('123')
+ console.log(id === AnotherId)
+
+ // refernce (non primitive) datatyepe
+ // Array , object< function
+ const heros = ["shaktimaan","daredevil","dr. doom"]
+  let myobbj = {
+    name: "abhishek",
+    age : 20,
+ }
+
+
+ const MyFunction = function(){
+    console.log("hello world")
+ }
 
