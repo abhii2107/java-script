@@ -36,3 +36,10 @@ User.greeting = function(){
 }
 
 console.log(User.greeting())
+
+
+User.greeting2 = function(){
+    console.log(`hello daer user,${this.name}`)
+}
+console.log(User.greeting())
+console.log(User.greeting2())
